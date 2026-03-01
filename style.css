@@ -1,0 +1,24 @@
+/* Simple styling for Streamlit dashboard */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  color: #0b5394;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+.stApp {
+  background-color: #f8fbff;
+}
+.css-1d391kg { /* tweak Streamlit default spacing class; may vary by version */
+  padding-top: 8px;
+}
+.block-container {
+  padding: 1rem 2rem;
+}
+
+/* Make Plotly graphs blend better */
+.main .element-container .stPlotlyChart > div {
+  box-shadow: 0 2px 8px rgba(11,83,148,0.06);
+  border-radius: 6px;
+}
